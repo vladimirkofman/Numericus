@@ -33,4 +33,9 @@ class NumericusTests: XCTestCase {
         }
     }
     
+    func testDummy() {
+        let num = Numericus()
+        XCTAssert(num.doSomething())
+    }
+    
 }
