@@ -12,11 +12,7 @@ env:
 matrix:
   include:
     - osx_image: xcode8.2
-      env: SCHEME="macOS"  SDK="macosx10.12"          DESTINATION="arch=x86_64"
-    - osx_image: xcode8.2
-      env: SCHEME="iOS"    SDK="iphonesimulator10.2"  DESTINATION="OS=10.1,name=iPhone 6S Plus"
-    - osx_image: xcode8.2
-      env: SCHEME="tvOS"   SDK="appletvsimulator10.1"  DESTINATION="OS=10.1,name=Apple TV 1080p"
+      env: SDK="iphonesimulator10.2"  DESTINATION="OS=10.1,name=iPhone 6S Plus"
 
 script:
   - set -o pipefail
@@ -24,7 +20,7 @@ script:
   - xcodebuild -showsdks
   - xcodebuild
     -project "$FRAMEWORK_NAME.xcodeproj"
-    -scheme "$FRAMEWORK_NAME-$SCHEME"
+    -scheme "$FRAMEWORK_NAME"
     -sdk "$SDK"
     -destination "$DESTINATION"
     -configuration Debug
