@@ -12,4 +12,8 @@ struct Numericus {
     func doSomething() -> Bool {
         return true
     }
+    
+    func doSomethingElse() -> Bool {
+        return false
+    }
 }
