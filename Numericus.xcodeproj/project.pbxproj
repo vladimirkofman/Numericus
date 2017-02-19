@@ -11,6 +11,13 @@
 		6D86193A1E58E31900D7926E /* NumericusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8619391E58E31900D7926E /* NumericusTests.swift */; };
 		6D86193C1E58E31900D7926E /* Numericus.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D86192E1E58E31900D7926E /* Numericus.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6D8619461E58E3B300D7926E /* Numericus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8619451E58E3B300D7926E /* Numericus.swift */; };
+		6DF89B7A1E5A287B00F06052 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF89B791E5A287B00F06052 /* AppDelegate.swift */; };
+		6DF89B7C1E5A287B00F06052 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF89B7B1E5A287B00F06052 /* ViewController.swift */; };
+		6DF89B7F1E5A287B00F06052 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DF89B7D1E5A287B00F06052 /* Main.storyboard */; };
+		6DF89B811E5A287B00F06052 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DF89B801E5A287B00F06052 /* Assets.xcassets */; };
+		6DF89B841E5A287B00F06052 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DF89B821E5A287B00F06052 /* LaunchScreen.storyboard */; };
+		6DF89B891E5A28B900F06052 /* Numericus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D86192B1E58E31900D7926E /* Numericus.framework */; };
+		6DF89B8A1E5A28B900F06052 /* Numericus.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6D86192B1E58E31900D7926E /* Numericus.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -21,7 +28,28 @@
 			remoteGlobalIDString = 6D86192A1E58E31900D7926E;
 			remoteInfo = Numericus;
 		};
+		6DF89B8B1E5A28B900F06052 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D8619221E58E31900D7926E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D86192A1E58E31900D7926E;
+			remoteInfo = Numericus;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6DF89B8D1E5A28B900F06052 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6DF89B8A1E5A28B900F06052 /* Numericus.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		6D86192B1E58E31900D7926E /* Numericus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Numericus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -31,6 +59,13 @@
 		6D8619391E58E31900D7926E /* NumericusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumericusTests.swift; sourceTree = "<group>"; };
 		6D86193B1E58E31900D7926E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D8619451E58E3B300D7926E /* Numericus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Numericus.swift; sourceTree = "<group>"; };
+		6DF89B771E5A287B00F06052 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DF89B791E5A287B00F06052 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6DF89B7B1E5A287B00F06052 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6DF89B7E1E5A287B00F06052 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6DF89B801E5A287B00F06052 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6DF89B831E5A287B00F06052 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6DF89B851E5A287B00F06052 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +84,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6DF89B741E5A287B00F06052 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DF89B891E5A28B900F06052 /* Numericus.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -57,6 +100,7 @@
 			children = (
 				6D86192D1E58E31900D7926E /* Numericus */,
 				6D8619381E58E31900D7926E /* NumericusTests */,
+				6DF89B781E5A287B00F06052 /* Demo */,
 				6D86192C1E58E31900D7926E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -66,6 +110,7 @@
 			children = (
 				6D86192B1E58E31900D7926E /* Numericus.framework */,
 				6D8619341E58E31900D7926E /* NumericusTests.xctest */,
+				6DF89B771E5A287B00F06052 /* Demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,6 +132,19 @@
 				6D86193B1E58E31900D7926E /* Info.plist */,
 			);
 			path = NumericusTests;
+			sourceTree = "<group>";
+		};
+		6DF89B781E5A287B00F06052 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				6DF89B791E5A287B00F06052 /* AppDelegate.swift */,
+				6DF89B7B1E5A287B00F06052 /* ViewController.swift */,
+				6DF89B7D1E5A287B00F06052 /* Main.storyboard */,
+				6DF89B801E5A287B00F06052 /* Assets.xcassets */,
+				6DF89B821E5A287B00F06052 /* LaunchScreen.storyboard */,
+				6DF89B851E5A287B00F06052 /* Info.plist */,
+			);
+			path = Demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +197,25 @@
 			productReference = 6D8619341E58E31900D7926E /* NumericusTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		6DF89B761E5A287B00F06052 /* Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DF89B881E5A287B00F06052 /* Build configuration list for PBXNativeTarget "Demo" */;
+			buildPhases = (
+				6DF89B731E5A287B00F06052 /* Sources */,
+				6DF89B741E5A287B00F06052 /* Frameworks */,
+				6DF89B751E5A287B00F06052 /* Resources */,
+				6DF89B8D1E5A28B900F06052 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DF89B8C1E5A28B900F06052 /* PBXTargetDependency */,
+			);
+			name = Demo;
+			productName = Demo;
+			productReference = 6DF89B771E5A287B00F06052 /* Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -158,6 +235,10 @@
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 					};
+					6DF89B761E5A287B00F06052 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 6D8619251E58E31900D7926E /* Build configuration list for PBXProject "Numericus" */;
@@ -166,6 +247,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 6D8619211E58E31900D7926E;
 			productRefGroup = 6D86192C1E58E31900D7926E /* Products */;
@@ -174,6 +256,7 @@
 			targets = (
 				6D86192A1E58E31900D7926E /* Numericus */,
 				6D8619331E58E31900D7926E /* NumericusTests */,
+				6DF89B761E5A287B00F06052 /* Demo */,
 			);
 		};
 /* End PBXProject section */
@@ -190,6 +273,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DF89B751E5A287B00F06052 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DF89B841E5A287B00F06052 /* LaunchScreen.storyboard in Resources */,
+				6DF89B811E5A287B00F06052 /* Assets.xcassets in Resources */,
+				6DF89B7F1E5A287B00F06052 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +305,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6DF89B731E5A287B00F06052 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DF89B7C1E5A287B00F06052 /* ViewController.swift in Sources */,
+				6DF89B7A1E5A287B00F06052 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -220,7 +322,31 @@
 			target = 6D86192A1E58E31900D7926E /* Numericus */;
 			targetProxy = 6D8619361E58E31900D7926E /* PBXContainerItemProxy */;
 		};
+		6DF89B8C1E5A28B900F06052 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D86192A1E58E31900D7926E /* Numericus */;
+			targetProxy = 6DF89B8B1E5A28B900F06052 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6DF89B7D1E5A287B00F06052 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DF89B7E1E5A287B00F06052 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6DF89B821E5A287B00F06052 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DF89B831E5A287B00F06052 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		6D86193D1E58E31900D7926E /* Debug */ = {
@@ -385,6 +511,32 @@
 			};
 			name = Release;
 		};
+		6DF89B861E5A287B00F06052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kofman.Demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6DF89B871E5A287B00F06052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kofman.Demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -404,12 +556,22 @@
 				6D8619411E58E31900D7926E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6D8619421E58E31900D7926E /* Build configuration list for PBXNativeTarget "NumericusTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6D8619431E58E31900D7926E /* Debug */,
 				6D8619441E58E31900D7926E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DF89B881E5A287B00F06052 /* Build configuration list for PBXNativeTarget "Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DF89B861E5A287B00F06052 /* Debug */,
+				6DF89B871E5A287B00F06052 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

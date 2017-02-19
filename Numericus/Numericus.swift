@@ -8,12 +8,17 @@
 
 import Foundation
 
-struct Numericus {
-    func doSomething() -> Bool {
+public struct Numericus {
+    
+    public init() {
+        
+    }
+    
+    public func doSomething() -> Bool {
         return true
     }
     
-    func doSomethingElse() -> Bool {
+    public func doSomethingElse() -> Bool {
         return false
     }
 }
