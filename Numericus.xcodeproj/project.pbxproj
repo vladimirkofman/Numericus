@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		6D8619351E58E31900D7926E /* Numericus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D86192B1E58E31900D7926E /* Numericus.framework */; };
 		6D86193A1E58E31900D7926E /* NumericusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8619391E58E31900D7926E /* NumericusTests.swift */; };
-		6D86193C1E58E31900D7926E /* Numericus.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D86192E1E58E31900D7926E /* Numericus.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6D8619461E58E3B300D7926E /* Numericus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8619451E58E3B300D7926E /* Numericus.swift */; };
 		6DF89B7A1E5A287B00F06052 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF89B791E5A287B00F06052 /* AppDelegate.swift */; };
 		6DF89B7C1E5A287B00F06052 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF89B7B1E5A287B00F06052 /* ViewController.swift */; };
@@ -53,7 +52,6 @@
 
 /* Begin PBXFileReference section */
 		6D86192B1E58E31900D7926E /* Numericus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Numericus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D86192E1E58E31900D7926E /* Numericus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Numericus.h; sourceTree = "<group>"; };
 		6D86192F1E58E31900D7926E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D8619341E58E31900D7926E /* NumericusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NumericusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D8619391E58E31900D7926E /* NumericusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumericusTests.swift; sourceTree = "<group>"; };
@@ -118,7 +116,6 @@
 		6D86192D1E58E31900D7926E /* Numericus */ = {
 			isa = PBXGroup;
 			children = (
-				6D86192E1E58E31900D7926E /* Numericus.h */,
 				6D86192F1E58E31900D7926E /* Info.plist */,
 				6D8619451E58E3B300D7926E /* Numericus.swift */,
 			);
@@ -154,7 +151,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D86193C1E58E31900D7926E /* Numericus.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -574,6 +570,7 @@
 				6DF89B871E5A287B00F06052 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
