@@ -10,6 +10,9 @@
 		6D8619351E58E31900D7926E /* Numericus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D86192B1E58E31900D7926E /* Numericus.framework */; };
 		6D86193A1E58E31900D7926E /* NumericusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8619391E58E31900D7926E /* NumericusTests.swift */; };
 		6D8619461E58E3B300D7926E /* Numericus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8619451E58E3B300D7926E /* Numericus.swift */; };
+		6DC2D7231E671B9A007DADA8 /* String+Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC2D7221E671B9A007DADA8 /* String+Regex.swift */; };
+		6DC2D7251E671C0C007DADA8 /* String+RegexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC2D7241E671C0C007DADA8 /* String+RegexTests.swift */; };
+		6DC2D7261E671C6E007DADA8 /* String+Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC2D7221E671B9A007DADA8 /* String+Regex.swift */; };
 		6DF89B7A1E5A287B00F06052 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF89B791E5A287B00F06052 /* AppDelegate.swift */; };
 		6DF89B7C1E5A287B00F06052 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF89B7B1E5A287B00F06052 /* ViewController.swift */; };
 		6DF89B7F1E5A287B00F06052 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DF89B7D1E5A287B00F06052 /* Main.storyboard */; };
@@ -57,6 +60,8 @@
 		6D8619391E58E31900D7926E /* NumericusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumericusTests.swift; sourceTree = "<group>"; };
 		6D86193B1E58E31900D7926E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D8619451E58E3B300D7926E /* Numericus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Numericus.swift; sourceTree = "<group>"; };
+		6DC2D7221E671B9A007DADA8 /* String+Regex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Regex.swift"; sourceTree = "<group>"; };
+		6DC2D7241E671C0C007DADA8 /* String+RegexTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+RegexTests.swift"; sourceTree = "<group>"; };
 		6DF89B771E5A287B00F06052 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DF89B791E5A287B00F06052 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6DF89B7B1E5A287B00F06052 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -118,6 +123,7 @@
 			children = (
 				6D86192F1E58E31900D7926E /* Info.plist */,
 				6D8619451E58E3B300D7926E /* Numericus.swift */,
+				6DC2D7221E671B9A007DADA8 /* String+Regex.swift */,
 			);
 			path = Numericus;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				6D8619391E58E31900D7926E /* NumericusTests.swift */,
+				6DC2D7241E671C0C007DADA8 /* String+RegexTests.swift */,
 				6D86193B1E58E31900D7926E /* Info.plist */,
 			);
 			path = NumericusTests;
@@ -289,6 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DC2D7231E671B9A007DADA8 /* String+Regex.swift in Sources */,
 				6D8619461E58E3B300D7926E /* Numericus.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,7 +305,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DC2D7251E671C0C007DADA8 /* String+RegexTests.swift in Sources */,
 				6D86193A1E58E31900D7926E /* NumericusTests.swift in Sources */,
+				6DC2D7261E671C6E007DADA8 /* String+Regex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
