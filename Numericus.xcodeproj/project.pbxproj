@@ -12,7 +12,6 @@
 		6D8619461E58E3B300D7926E /* Numericus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8619451E58E3B300D7926E /* Numericus.swift */; };
 		6DC2D7231E671B9A007DADA8 /* String+Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC2D7221E671B9A007DADA8 /* String+Regex.swift */; };
 		6DC2D7251E671C0C007DADA8 /* String+RegexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC2D7241E671C0C007DADA8 /* String+RegexTests.swift */; };
-		6DC2D7261E671C6E007DADA8 /* String+Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC2D7221E671B9A007DADA8 /* String+Regex.swift */; };
 		6DF89B7A1E5A287B00F06052 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF89B791E5A287B00F06052 /* AppDelegate.swift */; };
 		6DF89B7C1E5A287B00F06052 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF89B7B1E5A287B00F06052 /* ViewController.swift */; };
 		6DF89B7F1E5A287B00F06052 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DF89B7D1E5A287B00F06052 /* Main.storyboard */; };
@@ -307,7 +306,6 @@
 			files = (
 				6DC2D7251E671C0C007DADA8 /* String+RegexTests.swift in Sources */,
 				6D86193A1E58E31900D7926E /* NumericusTests.swift in Sources */,
-				6DC2D7261E671C6E007DADA8 /* String+Regex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
